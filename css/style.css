@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+
+body {
+	margin: 0;
+	color: blue;
+	font-family: 'Mansalva', cursive;
+}
+
+.conatiner {
+	width: 100%;
+	max-width: 1200px;
+}
+
+h1 {
+
+	margin: 0 40%;
+	width: 200px;
+	padding: 50px;
+
+}
+
+.containerSearch {
+	width: 80%;
+	margin: 0 40%;
+
+	& #search {
+		padding: 10px 15px;
+		color: white;
+		border-radius: 10%;
+		background: black;
+	}
+
+}
